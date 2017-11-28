@@ -1,0 +1,77 @@
+.ivu-page{
+  margin-top: 20px
+}
+.title_top{
+  overflow: hidden;
+  margin-bottom: 10px
+}
+.text_left{
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.butt_right{
+  float: right
+}
+.butt_right li{
+  float: left;
+}
+.butt_right li:nth-child(2){
+  margin:0 10px 0 10px;
+}
+.butt_right li:nth-child(4){
+  margin:0 0 0 10px;
+}
+.butt_right{
+  margin-right: 5%
+}
+.butt_right li button{
+  background-color: #2d8cf0;
+  border: none;
+  width: 85px;
+  height: 30px;
+  border-radius: 3px;
+  color: white
+}
+.butt_right li{
+  margin:0 10px 0 10px;
+}
+/*菜单项目管理*/
+.ivu-tree{
+  float: left;
+  width: 13%;
+}
+.content{
+  float: right;
+  width: 75%;
+}
+.ivu-table-wrapper{
+  width: 100%
+}
+.box{
+  overflow: hidden;
+  width:100%;
+  margin-bottom: 1rem;
+  border-bottom: solid 1px #e6e6e6;
+  padding-bottom: .5rem
+}
+.ivu-modal-body{
+  height: 446px;
+  overflow-y: scroll;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+.ivu-table-row-highlight td, tr.ivu-table-row-highlight.ivu-table-row-hover td{
+  background-color: red;
+}
+.el-tree{
+  width: 13%;
+  float: left
+}
+.ivu-menu-vertical .ivu-menu-submenu .ivu-menu-item{
+  padding-left: 10px
+}
